@@ -39,22 +39,29 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           ></path><circle cx="6" cy="18" r="2"></circle>
         </svg>
       </a>
-
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Hey, I'm Grant. I'm an aspiring full-stack engineer and I love to build
+        things.
+      </p>
+      <p></p>
+      <p>
+        When I'm not playing volleyball in my free time, I'm probably working on
+        a side project or learning something new. I always believed that if you
+        are unable to explain a topic to someone else, you don't really
+        understand it yourself. That's why I love to write about the things I
+        learn.
       </p>
       <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        Follow me for my experiences and learnings as I try to become a better
+        developer.
       </p>
+      <p>Content Roadmap:</p>
+      <input type="checkbox" id="concept1" name="internet" disabled />
+      <label for="internet"> Explaining the Internet</label><br />
+      <input type="checkbox" id="concept2" name="api" disabled />
+      <label for="api"> All about APIs</label><br />
+      <input type="checkbox" id="concept3" name="version-control" disabled />
+      <label for="web"> Git-ting good at Version Control</label><br />
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
