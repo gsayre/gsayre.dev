@@ -4,7 +4,7 @@ export const SITE = {
   website: "https://grantsayre.dev/",
   author: "Grant Sayre",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "gsayre.dev",
+  title: "grantsayre.dev",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 10,
